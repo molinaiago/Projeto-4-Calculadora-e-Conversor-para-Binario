@@ -1,0 +1,78 @@
+body {
+    background-image: linear-gradient(45deg, black, rgb(175, 162, 103));
+    height: 100vh;
+    font: normal 18pt Helvetica;
+    text-align: center;
+}
+
+
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+a#link {
+    position: absolute;
+    top: 70%;
+    left: 44%;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+#botao {
+    width: 50px;
+    height: 50px;
+    font: 25px normal Helvetica;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    margin: 3px;
+}
+
+#botao:hover {
+    background-color: black;
+}
+
+#resultado {
+    background-color: white;
+    width: 215px;
+    height: 30px;
+    margin: 5px;
+    font: 25px normal Helvetica;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+
+#menuhoriz {
+    text-align: center;
+    font: normal 18pt Helvetica;
+    list-style: none;
+    padding: 0;
+    
+}
+
+#menuhoriz li {
+    font: normal 18pt Helvetica;
+    display: inline;
+    display: inline-block;
+    padding: 5px 40px 5px;
+    text-align: center;
+}
+#menuhoriz li a { 
+    font: normal 18pt Helvetica;
+    display: inline;
+    text-decoration: none;
+}
